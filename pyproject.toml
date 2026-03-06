@@ -1,6 +1,6 @@
 [project]
 name = "pl-key-value-sqlite-db"
-version = "0.0.4"
+version = "0.0.5"
 description = "A persistent key-value store on top of SQLite."
 readme = "README.md"
 authors = [{ name = "Peter Lavigne" }]
