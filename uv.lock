@@ -250,17 +250,17 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "pl-mocks-and-fakes", specifier = "==0.0.30" },
-    { name = "pl-run-program", specifier = "==0.0.30" },
-    { name = "pl-tiny-clients", specifier = "==0.0.41" },
-    { name = "pl-user-io", specifier = "==0.0.17" },
+    { name = "pl-mocks-and-fakes", specifier = ">=0.0.30" },
+    { name = "pl-run-program", specifier = ">=0.0.30" },
+    { name = "pl-tiny-clients", specifier = ">=0.0.42" },
+    { name = "pl-user-io", specifier = ">=0.0.18" },
     { name = "pydantic", specifier = ">=2.12.5" },
     { name = "pydantic-settings", specifier = ">=2.13.1" },
 ]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "pyright", specifier = "==1.1.408" },
+    { name = "pyright", specifier = "==1.1.409" },
     { name = "pytest", specifier = "==9.0.2" },
     { name = "pytest-cov", specifier = "==7.0.0" },
     { name = "ruff", specifier = "==0.15.2" },
@@ -289,7 +289,7 @@ wheels = [
 
 [[package]]
 name = "pl-tiny-clients"
-version = "0.0.41"
+version = "0.0.43"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pl-mocks-and-fakes" },
@@ -300,22 +300,22 @@ dependencies = [
     { name = "pytest" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/da/fd/4aa9ece6b64b24c9c46c3874f25fa1429b29afdf396cdcda7f57f6032729/pl_tiny_clients-0.0.41.tar.gz", hash = "sha256:3105004dd8ab28efe82f9a4313db37e12420850cd3d899884d3f0d16e650c54e", size = 25858, upload-time = "2026-03-06T00:07:21.287Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/87/1a/e301e640d28f82959cd4d54cc3454f17f72a365f8ed25dbb0bc24611f0f7/pl_tiny_clients-0.0.43.tar.gz", hash = "sha256:8cb6bc4d0e7d96e7a09b490c2cc2d650a7478de1c210b12a6b2a7b95787ae4e1", size = 25369, upload-time = "2026-05-01T16:19:05.326Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f1/8d/b3406d300bdf625e21834c80f4dcc9903c8a3c67af648249bfe4c310a413/pl_tiny_clients-0.0.41-py3-none-any.whl", hash = "sha256:d3a0d71a21f27a963482acaf168532f3177983967c17528383820b592782ccd7", size = 54294, upload-time = "2026-03-06T00:07:19.585Z" },
+    { url = "https://files.pythonhosted.org/packages/39/73/78c6f83a88ca2691c6e8dd4f57184f3d95450ff06ee66e942b896fcfa330/pl_tiny_clients-0.0.43-py3-none-any.whl", hash = "sha256:5aa642b90a2cdfe26db90cc90a8aeaf265f480f3f0bd5ff81422a614b07fdda2", size = 52588, upload-time = "2026-05-01T16:19:06.443Z" },
 ]
 
 [[package]]
 name = "pl-user-io"
-version = "0.0.17"
+version = "0.0.20"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pl-mocks-and-fakes" },
     { name = "rich" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ca/3c/c4fa7a95cb174d7ddf3f790570799bb0183eb6975771643ea3a1b0639f05/pl_user_io-0.0.17.tar.gz", hash = "sha256:825f754390f533b7d5ad995639f037a23ca7fe914ee3359032a56cc74a377bd0", size = 9951, upload-time = "2026-02-26T13:30:41.521Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/10/8e/0325c0b5b7292f323ba78d75122aa4b38c23937e6016d4b7e37f3d8c0d71/pl_user_io-0.0.20.tar.gz", hash = "sha256:883e89d06d1f6169aebf867b3ed0b20e62eb933b0485f53896bf4fb217debb1f", size = 9959, upload-time = "2026-03-09T18:20:42.677Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a6/e8/ed8d72bcbcecaed2c8e10e870c751e4491960a8d4579f665c9b451589731/pl_user_io-0.0.17-py3-none-any.whl", hash = "sha256:0ccc0c7673c0840670c65c142bf0ebcbd2d4007459d9ade10ca08fa063e08fce", size = 16070, upload-time = "2026-02-26T13:30:42.237Z" },
+    { url = "https://files.pythonhosted.org/packages/0d/66/515cf2417736bd67620f70d4b6661114c050bd50872845bca558edf39586/pl_user_io-0.0.20-py3-none-any.whl", hash = "sha256:ff832b66df2921ea590be5607cc70ff327c8dc6ece3b6b63e0eee4dd935a4dfa", size = 16084, upload-time = "2026-03-09T18:20:43.399Z" },
 ]
 
 [[package]]
@@ -438,15 +438,15 @@ wheels = [
 
 [[package]]
 name = "pyright"
-version = "1.1.408"
+version = "1.1.409"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "nodeenv" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/74/b2/5db700e52554b8f025faa9c3c624c59f1f6c8841ba81ab97641b54322f16/pyright-1.1.408.tar.gz", hash = "sha256:f28f2321f96852fa50b5829ea492f6adb0e6954568d1caa3f3af3a5f555eb684", size = 4400578, upload-time = "2026-01-08T08:07:38.795Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/51/4e/3aa27f74211522dba7e9cbc3e74de779c6d4b654c54e50a4840623be8014/pyright-1.1.409.tar.gz", hash = "sha256:986ee05beca9e077c165758ad123667c679e050059a2546aa02473930394bc93", size = 4430434, upload-time = "2026-04-23T11:02:03.799Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0c/82/a2c93e32800940d9573fb28c346772a14778b84ba7524e691b324620ab89/pyright-1.1.408-py3-none-any.whl", hash = "sha256:090b32865f4fdb1e0e6cd82bf5618480d48eecd2eb2e70f960982a3d9a4c17c1", size = 6399144, upload-time = "2026-01-08T08:07:37.082Z" },
+    { url = "https://files.pythonhosted.org/packages/16/6b/330d8ebae582b30c2959a1ef4c3bc344ebde48c2ff0c3f113c4710735e11/pyright-1.1.409-py3-none-any.whl", hash = "sha256:aa3ea228cab90c845c7a60d28db7a844c04315356392aa09fafcee98c8c22fb3", size = 6438161, upload-time = "2026-04-23T11:02:01.309Z" },
 ]
 
 [[package]]
@@ -490,7 +490,7 @@ wheels = [
 
 [[package]]
 name = "requests"
-version = "2.32.3"
+version = "2.33.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "certifi" },
@@ -498,9 +498,9 @@ dependencies = [
     { name = "idna" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz", hash = "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760", size = 131218, upload-time = "2024-05-29T15:37:49.536Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5f/a4/98b9c7c6428a668bf7e42ebb7c79d576a1c3c1e3ae2d47e674b468388871/requests-2.33.1.tar.gz", hash = "sha256:18817f8c57c6263968bc123d237e3b8b08ac046f5456bd1e307ee8f4250d3517", size = 134120, upload-time = "2026-03-30T16:09:15.531Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl", hash = "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6", size = 64928, upload-time = "2024-05-29T15:37:47.027Z" },
+    { url = "https://files.pythonhosted.org/packages/d7/8e/7540e8a2036f79a125c1d2ebadf69ed7901608859186c856fa0388ef4197/requests-2.33.1-py3-none-any.whl", hash = "sha256:4e6d1ef462f3626a1f0a0a9c42dd93c63bad33f9f1c1937509b8c5c8718ab56a", size = 64947, upload-time = "2026-03-30T16:09:13.83Z" },
 ]
 
 [[package]]
