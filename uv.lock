@@ -241,7 +241,7 @@ wheels = [
 
 [[package]]
 name = "pl-key-value-sqlite-db"
-version = "0.0.12"
+version = "0.0.13"
 source = { editable = "." }
 dependencies = [
     { name = "pl-mocks-and-fakes" },
